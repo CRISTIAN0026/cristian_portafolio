@@ -465,7 +465,7 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 64px;
+  gap: 4px;
 }
 .contact--form--container {
   display: grid;
@@ -527,6 +527,52 @@ input[type="checkbox"] {
   border-radius: 0.15em;
   transform: translatey(-0.075em);
 }
+
+.section__text__p1 {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+.linkedIn-icon {
+  height: 2.5rem;
+}
+
+
 /* Contact End */
 
 /* Footer Start */

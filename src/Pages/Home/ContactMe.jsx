@@ -1,82 +1,46 @@
 export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
-      <div>
-        <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
-        <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
-        </p>
-      </div>
-      <form className="contact--form--container">
-        <div className="container">
-          <label htmlFor="first-name" className="contact--label">
-            <span className="text-md">First Name</span>
-            <input
-              type="text"
-              className="contact--input text-md"
-              name="first-name"
-              id="first-name"
-              required
-            />
-          </label>
-          <label htmlFor="last-name" className="contact--label">
-            <span className="text-md">Last Name</span>
-            <input
-              type="text"
-              className="contact--input text-md"
-              name="last-name"
-              id="last-name"
-              required
-            />
-          </label>
-          <label htmlFor="email" className="contact--label">
-            <span className="text-md">Email</span>
-            <input
-              type="email"
-              className="contact--input text-md"
-              name="email"
-              id="email"
-              required
-            />
-          </label>
-          <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">phone-number</span>
-            <input
-              type="number"
-              className="contact--input text-md"
-              name="phone-number"
-              id="phone-number"
-              required
-            />
-          </label>
-        </div>
-        <label htmlFor="choode-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
-          </select>
-        </label>
-        <label htmlFor="message" className="contact--label">
-          <span className="text-md">Message</span>
-          <textarea
-            className="contact--input text-md"
-            id="message"
-            rows="8"
-            placeholder="Type your message..."
+      <p class="section__text__p1">Ponte en contacto conmigo</p>
+      <h1 className="title">Contácteme</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./img/gmail.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
           />
-        </label>
-        <label htmlFor="checkboc" className="checkbox--label">
-          <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
-        </label>
-        <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
+          <p>
+            <a href="mailto:cristianpaez009@gmail.com">
+              email
+            </a>
+          </p>
         </div>
-      </form>
+        <div class="contact-info-container">
+          <img
+            src="./img/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon linkedIn-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/cristian009" target="_blank">
+              LinkedIn
+            </a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./img/whatsapp.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon linkedIn-icon"
+          />
+          <p>
+            <a href="https://wa.me/573043966737" target="_blank">
+              WhatsApp
+            </a>
+          </p>
+        </div>
+      </div>
     </section>
   );
 }
