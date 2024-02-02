@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img src="./img/Cristian Paez.svg" alt="Logoipsum" />
         </div>
         <div className="footer--items">
           <ul>
@@ -33,7 +33,7 @@ function Footer() {
                 to="MyPortfolio"
                 className="text-md"
               >
-                Portfolio
+                Portafolio
               </Link>
             </li>
             <li>
@@ -46,7 +46,7 @@ function Footer() {
                 to="AboutMe"
                 className="text-md"
               >
-                About Me
+                Sobre mi
               </Link>
             </li>
             <li>
@@ -59,20 +59,7 @@ function Footer() {
                 to="Contact"
                 className="text-md"
               >
-                Contact
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="testimonial"
-                className="text-md"
-              >
-                Testimonials
+                Contacto
               </Link>
             </li>
           </ul>
@@ -172,7 +159,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
+        <p className="footer--content">Hecho con 💖 por Cristian</p>
         <div className="footer--social--icon">
           <ul>
             <li>

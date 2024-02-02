@@ -52,6 +52,30 @@ p {
   background-color: var(--white);
   border: 1px solid var(--primary);
 }
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-2 {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-2:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+}
+
+
 .btn-outline-primary:hover {
   color: var(--white);
   background-color: var(--primary);
@@ -218,7 +242,7 @@ h2 {
   line-height: 90px;
   align-self: stretch;
 }
-.hero--section--title--color {
+.hero--section-title--color {
   color: var(--primary);
 }
 .hero--section-description {
@@ -256,7 +280,7 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   gap: 42.6px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .skills--section--card {
   display: flex;
