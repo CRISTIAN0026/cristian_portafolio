@@ -1,4 +1,5 @@
 import data from "../../data/index.json";
+import Tecnologías from "./Tecnologías";
 
 export default function MySkills() {
   return (
@@ -17,6 +18,7 @@ export default function MySkills() {
               <h3 className="skills--section--title">{item.title}</h3>
               <p className="skills--section--description">{item.description}</p>
               <p className="skills--section--description">{item.detail}</p>
+              <Tecnologías  tecnologías={item.tecnologías} />
             </div>
           </div>
         ))}

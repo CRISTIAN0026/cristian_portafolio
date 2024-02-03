@@ -309,6 +309,17 @@ h2 {
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
+.skills--section--img-tec {
+  display: flex;
+  padding: 10.3px;
+  margin: 4px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8.6px;
+  background: #fff;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
 .skills--section--card--content {
   display: flex;
   flex-direction: column;

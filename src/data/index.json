@@ -4,14 +4,28 @@
       "id": "1",
       "src": "./img/herramientas.png",
       "title": "Tecnologías",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "tecnologías": [
+        { "img": "./img/icon-javascript.png", "name": "Javascript" },
+        { "img": "./img/icon-react.png", "name": "React" },
+        { "img": "./img/icon-nodejs.png", "name": "Node.js" },
+        { "img":"./img/icon-typescript.png","name":"TypeScript"},
+        { "img": "./img/icon-express-js.png", "name": "Express" },
+        { "img":"./img/icon-graphql.png","name":"GraphQL"},
+        { "img":"./img/icon-java.png","name":"Java" },
+        { "img":"./img/icon-git.png","name":"GIT"},
+        { "img":"./img/icon-postgres.png","name":"PostgreSQL"},
+        { "img":"./img/icon-mysql.png","name":"MySQL"},
+        { "img":"./img/icon-mongodb.png","name":"MongoDB"},
+        { "img":"./img/icon-html5.png", "name":"HTML5"},
+        { "img":"./img/icon-css3.png", "name":"CSS3"}
+      ]
     },
     {
       "id": "2",
       "src": "./img/experiencia.png",
       "title": "Experiencia",
       "description": "Full Stack Developer Junior 2022 – 2023 Mexico, Mexico.",
-      "detail":" ● Desarrollar landing pages, dashboard y aplicaciones online utilizando React, Next.js, JavaScript, Material UI, MySQL, Sequelize, GraphQL, Node JS, Redux, CSS, Git. Diseñar interfaces y elementos frontend, mantener y optimizar sitios web e interfaces. "
+      "detail": " ● Desarrollar landing pages, dashboard y aplicaciones online utilizando React, Next.js, JavaScript, Material UI, MySQL, Sequelize, GraphQL, Node JS, Redux, CSS, Git. Diseñar interfaces y elementos frontend, mantener y optimizar sitios web e interfaces. "
     }
   ],
   "portfolio": [
